@@ -25,11 +25,3 @@ jobs:
 
     - name: Run Data Processing Pipeline
       run: java -jar target/data-processing-pipeline-1.0-SNAPSHOT-jar-with-dependencies.jar
-
-    - name: Commit processed files
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add data/output/*
-        git commit -m "Add processed files"
-        git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
