@@ -2,22 +2,13 @@
 
 ## Project Overview
 
-This project demonstrates a data processing pipeline using Java. It reads data from a source, processes it, and outputs the results. This project highlights skills in data engineering, Java programming, and performance optimization.
+This project demonstrates a data processing pipeline using Java. It reads data from a source, processes it, and outputs the results. This project highlights my skills in data engineering, Java programming, and performance optimization.
 
 ## Setup Instructions
 
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Build the project using Maven:
-mvn clean install
-
-markdown
-Copy code
-4. Run the application:
-java -jar target/data-processing-pipeline-1.0-SNAPSHOT-jar-with-dependencies.jar
-
-kotlin
-Copy code
+1. Navigate to the project directory on GitHub.
+2. Build the project using GitHub Actions.
+3. Run the application using GitHub's CodeSpaces or Actions.
 
 ## Usage
 
